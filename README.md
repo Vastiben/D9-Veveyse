@@ -1,11 +1,11 @@
-# D9-Chatel
+# D9-Veveyse
 
 Calendriers et classements calculés des Juniors D-9 (AFF-FFV) de Team Veveyse :
 Degré 2 / Groupe 8 (Châtel) et Degré 1 / Groupe 4 (Bossonnens).
 
 **Dashboards publiés** :
-- Degré 2 · Groupe 8 : https://vastiben.github.io/D9-Chatel/
-- Degré 1 · Groupe 4 : https://vastiben.github.io/D9-Chatel/degre-1.html
+- Degré 2 · Groupe 8 : https://vastiben.github.io/D9-Veveyse/
+- Degré 1 · Groupe 4 : https://vastiben.github.io/D9-Veveyse/degre-1.html
 
 ## Architecture
 

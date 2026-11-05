@@ -1,4 +1,4 @@
-# Contexte — D9-Chatel
+# Contexte — D9-Veveyse
 
 Suivi de deux groupes Juniors D-9 (AFF-FFV) pour Team Veveyse : Degré 2 /
 Groupe 8 (Châtel) et Degré 1 / Groupe 4 (Bossonnens) — calendrier, résultats, et un classement calculé puisque la fédération n'en

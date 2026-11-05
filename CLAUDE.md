@@ -1,4 +1,4 @@
-# D9-Chatel
+# D9-Veveyse
 
 Dashboards des Juniors D-9 (AFF-FFV) de Team Veveyse — Degré 2 / Groupe 8
 (Châtel) et Degré 1 / Groupe 4 (Bossonnens) — hébergés sur GitHub Pages
