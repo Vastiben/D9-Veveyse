@@ -47,6 +47,9 @@ publie pas dans cette catégorie.
 
 ## Portée
 
+  Décision de Bastien (2026-11-05) : si l'égalité persiste après la
+  confrontation directe, on départage par la différence de buts **générale**
+  (pas celle des seuls matchs entre les équipes concernées).
 - **Dans le périmètre** : les Groupes 8 et 4, ronde d'automne 2026, calendrier et
   scores, classement calculé.
 - **Hors périmètre** : tout jugement ou recommandation sur le niveau d'une
