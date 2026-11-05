@@ -7,7 +7,8 @@
     "groupe": "Groupe 8",
     "equipe_suivie": "Team Veveyse (Châtel)",
     "publie_classement_officiel": false,
-    "source": "Match center et widget officiels de l'AFF-FFV (matchcenter.aff-ffv.ch, widget.football.ch)"
+    "source": "Match center et widget officiels de l'AFF-FFV (matchcenter.aff-ffv.ch, widget.football.ch)",
+    "lien_source": "https://matchcenter.aff-ffv.ch/default.aspx?oid=13&lng=2&v=707&t=79514&ls=26056&sg=70892&a=sp"
   },
   "derniere_maj": "2026-10-17",
   "matches": [

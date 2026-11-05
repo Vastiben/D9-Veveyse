@@ -1,26 +1,31 @@
 # Contexte — D9-Chatel
 
-Suivi du Groupe 8 (Juniors D-9, AFF-FFV) pour Team Veveyse (Châtel) :
-calendrier, résultats, et un classement calculé puisque la fédération n'en
+Suivi de deux groupes Juniors D-9 (AFF-FFV) pour Team Veveyse : Degré 2 /
+Groupe 8 (Châtel) et Degré 1 / Groupe 4 (Bossonnens) — calendrier, résultats, et un classement calculé puisque la fédération n'en
 publie pas dans cette catégorie.
 
 ## Vocabulaire
 
 - **Noms des équipes Team Veveyse** : l'AFF-FFV les affiche avec le
-  numéro de club — (5076) b, (5014) c, (5008) b. Dans les données et sur
-  la page, on écrit le village : Team Veveyse (Semsales), Team Veveyse
-  (Châtel), Team Veveyse (Bossonnens). La conversion se fait à chaque
+  numéro de club — (5076) b, (5014) c, (5008) b en Groupe 8 ; (5008) a,
+  (5047) q en Groupe 4. Dans les données et sur la page, on écrit le
+  village : Team Veveyse (Semsales), (Châtel), (Bossonnens), (CSP). La conversion se fait à chaque
   mise à jour (skill `mettre-a-jour-classement`).
 - **AFF-FFV** : Association fribourgeoise de football, fédération qui gère
   le championnat.
-- **Groupe 8** : la poule de 16 équipes suivie ici, au sein de la
-  Stärkeklasse 2 (niveau de force 2) des Juniors D-9.
-- **Journée** : un cycle de matchs où chacune des 16 équipes du groupe joue
-  une fois (8 rencontres). Les journées ne sont pas numérotées par
-  l'AFF-FFV. `index.html` les déduit automatiquement : toutes les
-  rencontres sont triées par date (puis heure, puis numéro de match), puis
-  découpées en tranches de 8 — la 1ère tranche est la journée 1, etc. Ce
-  n'est jamais stocké dans les données, seulement recalculé à l'affichage.
+- **Degré 1 / Degré 2** : traduction de Stärkeklasse 1 / 2, niveau de force
+  au sein des Juniors D-9.
+- **Groupe 8** (Degré 2, 16 équipes, suivi : Châtel) et **Groupe 4**
+  (Degré 1, 10 équipes, suivi : Bossonnens) : les deux poules suivies ici.
+- **Nullwertung** (« N ») : match annulé côté AFF-FFV, non comptabilisé au
+  classement. Statut `nullwertung`.
+- **Journée** : un cycle de matchs où chaque équipe du groupe joue une fois
+  (n/2 rencontres). Les journées ne sont pas numérotées par l'AFF-FFV. Les
+  pages les déduisent : les numéros de match sont attribués par journée en
+  blocs consécutifs (journée = (numéro − plus petit numéro) / (n/2)), ce qui
+  résiste aux matchs reportés ; si un numéro manque ou qu'une équipe joue
+  deux fois dans un bloc, repli sur un découpage par date en tranches de n/2.
+  Jamais stocké dans les données, recalculé à l'affichage.
 - **Spielnummer / numéro de match** : identifiant unique de chaque
   rencontre côté AFF-FFV. Sert de clé pour dédupliquer les rencontres vues
   sur plusieurs captures d'écran qui se chevauchent.
@@ -42,7 +47,7 @@ publie pas dans cette catégorie.
 
 ## Portée
 
-- **Dans le périmètre** : le Groupe 8, ronde d'automne 2026, calendrier et
+- **Dans le périmètre** : les Groupes 8 et 4, ronde d'automne 2026, calendrier et
   scores, classement calculé.
 - **Hors périmètre** : tout jugement ou recommandation sur le niveau d'une
   équipe ou une éventuelle inscription en division supérieure — ce repo
@@ -70,7 +75,7 @@ La page est hébergée sur GitHub Pages (ADR-0004), pas sur un Artifact
 Claude : un Artifact partagé publiquement ne peut déclarer aucune capacité
 runtime et reste figé sur une version précise à chaque republication
 (constaté et documenté en ADR-0002/0003 avant d'abandonner cette voie).
-`data/matches.json` est la seule source de vérité ; `index.html` la charge
-par `fetch` à chaque visite. Mise à jour via la skill
+un fichier `data/degre-N.json` par groupe est la source de vérité (ADR-0005) ;
+chaque page le charge par `fetch` à chaque visite. Mise à jour via la skill
 `mettre-a-jour-classement` dans une session Claude Code — voir
 `README.md`.

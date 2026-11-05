@@ -1,0 +1,465 @@
+{
+  "competition": {
+    "association": "AFF-FFV (Association fribourgeoise de football)",
+    "categorie": "Juniors D-9",
+    "classe_de_force": "Stärkeklasse 1",
+    "ronde": "Ronde d'automne 2026",
+    "groupe": "Groupe 4",
+    "equipe_suivie": "Team Veveyse (Bossonnens)",
+    "publie_classement_officiel": false,
+    "source": "Match center et widget officiels de l'AFF-FFV (matchcenter.aff-ffv.ch, widget.football.ch)"
+  },
+  "derniere_maj": "2026-11-05",
+  "matches": [
+    {
+      "date": "2026-08-28",
+      "heure": null,
+      "numero": 168671,
+      "domicile": "Team Veveyse (Bossonnens)",
+      "exterieur": "FC St-Georges Attalens a",
+      "buts_domicile": 8,
+      "buts_exterieur": 2,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-08-29",
+      "heure": null,
+      "numero": 168667,
+      "domicile": "FC Broc a",
+      "exterieur": "Team AFF-FFV M-14A Fem",
+      "buts_domicile": 10,
+      "buts_exterieur": 1,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-08-29",
+      "heure": null,
+      "numero": 168668,
+      "domicile": "Team Glâne (5077) c",
+      "exterieur": "FC Ursy a",
+      "buts_domicile": 0,
+      "buts_exterieur": 7,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-08-29",
+      "heure": null,
+      "numero": 168669,
+      "domicile": "Team Gibloux (5096) a",
+      "exterieur": "Team Veveyse (CSP)",
+      "buts_domicile": 2,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-08-29",
+      "heure": null,
+      "numero": 168670,
+      "domicile": "FC Gruyère-Lac",
+      "exterieur": "FC Bulle a",
+      "buts_domicile": 1,
+      "buts_exterieur": 4,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-05",
+      "heure": null,
+      "numero": 168672,
+      "domicile": "Team AFF-FFV M-14A Fem",
+      "exterieur": "FC St-Georges Attalens a",
+      "buts_domicile": 4,
+      "buts_exterieur": 2,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-05",
+      "heure": null,
+      "numero": 168673,
+      "domicile": "FC Bulle a",
+      "exterieur": "Team Veveyse (Bossonnens)",
+      "buts_domicile": 5,
+      "buts_exterieur": 0,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-05",
+      "heure": null,
+      "numero": 168674,
+      "domicile": "Team Veveyse (CSP)",
+      "exterieur": "FC Gruyère-Lac",
+      "buts_domicile": 3,
+      "buts_exterieur": 4,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-05",
+      "heure": null,
+      "numero": 168675,
+      "domicile": "FC Ursy a",
+      "exterieur": "Team Gibloux (5096) a",
+      "buts_domicile": 5,
+      "buts_exterieur": 1,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-05",
+      "heure": null,
+      "numero": 168676,
+      "domicile": "FC Broc a",
+      "exterieur": "Team Glâne (5077) c",
+      "buts_domicile": 9,
+      "buts_exterieur": 1,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-09",
+      "heure": null,
+      "numero": 168681,
+      "domicile": "FC St-Georges Attalens a",
+      "exterieur": "FC Bulle a",
+      "buts_domicile": 3,
+      "buts_exterieur": 5,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-11",
+      "heure": null,
+      "numero": 168680,
+      "domicile": "Team Veveyse (Bossonnens)",
+      "exterieur": "Team Veveyse (CSP)",
+      "buts_domicile": 4,
+      "buts_exterieur": 4,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-12",
+      "heure": null,
+      "numero": 168677,
+      "domicile": "Team Glâne (5077) c",
+      "exterieur": "Team AFF-FFV M-14A Fem",
+      "buts_domicile": 4,
+      "buts_exterieur": 5,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-12",
+      "heure": null,
+      "numero": 168678,
+      "domicile": "Team Gibloux (5096) a",
+      "exterieur": "FC Broc a",
+      "buts_domicile": 2,
+      "buts_exterieur": 2,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-12",
+      "heure": null,
+      "numero": 168679,
+      "domicile": "FC Gruyère-Lac",
+      "exterieur": "FC Ursy a",
+      "buts_domicile": 2,
+      "buts_exterieur": 1,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-19",
+      "heure": null,
+      "numero": 168682,
+      "domicile": "Team AFF-FFV M-14A Fem",
+      "exterieur": "FC Bulle a",
+      "buts_domicile": 0,
+      "buts_exterieur": 12,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-19",
+      "heure": null,
+      "numero": 168683,
+      "domicile": "Team Veveyse (CSP)",
+      "exterieur": "FC St-Georges Attalens a",
+      "buts_domicile": 7,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-19",
+      "heure": null,
+      "numero": 168684,
+      "domicile": "FC Ursy a",
+      "exterieur": "Team Veveyse (Bossonnens)",
+      "buts_domicile": 11,
+      "buts_exterieur": 2,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-19",
+      "heure": null,
+      "numero": 168685,
+      "domicile": "FC Broc a",
+      "exterieur": "FC Gruyère-Lac",
+      "buts_domicile": 3,
+      "buts_exterieur": 2,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-19",
+      "heure": null,
+      "numero": 168686,
+      "domicile": "Team Glâne (5077) c",
+      "exterieur": "Team Gibloux (5096) a",
+      "buts_domicile": 2,
+      "buts_exterieur": 5,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-25",
+      "heure": null,
+      "numero": 168689,
+      "domicile": "Team Veveyse (Bossonnens)",
+      "exterieur": "FC Broc a",
+      "buts_domicile": 2,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-26",
+      "heure": null,
+      "numero": 168687,
+      "domicile": "Team Gibloux (5096) a",
+      "exterieur": "Team AFF-FFV M-14A Fem",
+      "buts_domicile": 2,
+      "buts_exterieur": 2,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-26",
+      "heure": null,
+      "numero": 168688,
+      "domicile": "FC Gruyère-Lac",
+      "exterieur": "Team Glâne (5077) c",
+      "buts_domicile": 4,
+      "buts_exterieur": 0,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-26",
+      "heure": null,
+      "numero": 168690,
+      "domicile": "FC St-Georges Attalens a",
+      "exterieur": "FC Ursy a",
+      "buts_domicile": 2,
+      "buts_exterieur": 5,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-26",
+      "heure": null,
+      "numero": 168691,
+      "domicile": "FC Bulle a",
+      "exterieur": "Team Veveyse (CSP)",
+      "buts_domicile": 9,
+      "buts_exterieur": 1,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-09-30",
+      "heure": null,
+      "numero": 168706,
+      "domicile": "FC Gruyère-Lac",
+      "exterieur": "Team Veveyse (Bossonnens)",
+      "buts_domicile": 4,
+      "buts_exterieur": 1,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-01",
+      "heure": null,
+      "numero": 168694,
+      "domicile": "FC Broc a",
+      "exterieur": "FC St-Georges Attalens a",
+      "buts_domicile": 3,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-03",
+      "heure": null,
+      "numero": 168692,
+      "domicile": "Team AFF-FFV M-14A Fem",
+      "exterieur": "Team Veveyse (CSP)",
+      "buts_domicile": 1,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-03",
+      "heure": null,
+      "numero": 168693,
+      "domicile": "FC Ursy a",
+      "exterieur": "FC Bulle a",
+      "buts_domicile": 4,
+      "buts_exterieur": 6,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-03",
+      "heure": null,
+      "numero": 168695,
+      "domicile": "Team Glâne (5077) c",
+      "exterieur": "Team Veveyse (Bossonnens)",
+      "buts_domicile": 2,
+      "buts_exterieur": 6,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-03",
+      "heure": null,
+      "numero": 168696,
+      "domicile": "Team Gibloux (5096) a",
+      "exterieur": "FC Gruyère-Lac",
+      "buts_domicile": 3,
+      "buts_exterieur": 1,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-09",
+      "heure": null,
+      "numero": 168698,
+      "domicile": "Team Veveyse (Bossonnens)",
+      "exterieur": "Team Gibloux (5096) a",
+      "buts_domicile": 4,
+      "buts_exterieur": 6,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-10",
+      "heure": null,
+      "numero": 168697,
+      "domicile": "FC Gruyère-Lac",
+      "exterieur": "Team AFF-FFV M-14A Fem",
+      "buts_domicile": 8,
+      "buts_exterieur": 0,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-10",
+      "heure": null,
+      "numero": 168699,
+      "domicile": "FC St-Georges Attalens a",
+      "exterieur": "Team Glâne (5077) c",
+      "buts_domicile": 7,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-10",
+      "heure": null,
+      "numero": 168700,
+      "domicile": "FC Bulle a",
+      "exterieur": "FC Broc a",
+      "buts_domicile": 5,
+      "buts_exterieur": 0,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-10",
+      "heure": null,
+      "numero": 168701,
+      "domicile": "Team Veveyse (CSP)",
+      "exterieur": "FC Ursy a",
+      "buts_domicile": 2,
+      "buts_exterieur": 5,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-17",
+      "heure": null,
+      "numero": 168703,
+      "domicile": "FC Broc a",
+      "exterieur": "Team Veveyse (CSP)",
+      "buts_domicile": 2,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-17",
+      "heure": null,
+      "numero": 168704,
+      "domicile": "Team Glâne (5077) c",
+      "exterieur": "FC Bulle a",
+      "buts_domicile": 0,
+      "buts_exterieur": 14,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-17",
+      "heure": null,
+      "numero": 168705,
+      "domicile": "Team Gibloux (5096) a",
+      "exterieur": "FC St-Georges Attalens a",
+      "buts_domicile": 6,
+      "buts_exterieur": 0,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-21",
+      "heure": null,
+      "numero": 168702,
+      "domicile": "Team AFF-FFV M-14A Fem",
+      "exterieur": "FC Ursy a",
+      "buts_domicile": 1,
+      "buts_exterieur": 10,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-24",
+      "heure": null,
+      "numero": 168709,
+      "domicile": "FC Bulle a",
+      "exterieur": "Team Gibloux (5096) a",
+      "buts_domicile": 8,
+      "buts_exterieur": 0,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-24",
+      "heure": null,
+      "numero": 168710,
+      "domicile": "Team Veveyse (CSP)",
+      "exterieur": "Team Glâne (5077) c",
+      "buts_domicile": 0,
+      "buts_exterieur": 0,
+      "statut": "nullwertung"
+    },
+    {
+      "date": "2026-10-24",
+      "heure": null,
+      "numero": 168711,
+      "domicile": "FC Ursy a",
+      "exterieur": "FC Broc a",
+      "buts_domicile": 5,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-10-30",
+      "heure": null,
+      "numero": 168707,
+      "domicile": "Team Veveyse (Bossonnens)",
+      "exterieur": "Team AFF-FFV M-14A Fem",
+      "buts_domicile": 3,
+      "buts_exterieur": 1,
+      "statut": "termine"
+    },
+    {
+      "date": "2026-11-03",
+      "heure": null,
+      "numero": 168708,
+      "domicile": "FC St-Georges Attalens a",
+      "exterieur": "FC Gruyère-Lac",
+      "buts_domicile": 2,
+      "buts_exterieur": 3,
+      "statut": "termine"
+    }
+  ]
+}

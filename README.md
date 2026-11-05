@@ -1,9 +1,11 @@
 # D9-Chatel
 
-Calendrier et classement calculé du Groupe 8 (Juniors D-9, AFF-FFV) pour
-Team Veveyse (Châtel).
+Calendriers et classements calculés des Juniors D-9 (AFF-FFV) de Team Veveyse :
+Degré 2 / Groupe 8 (Châtel) et Degré 1 / Groupe 4 (Bossonnens).
 
-**Dashboard publié** : https://vastiben.github.io/D9-Chatel/
+**Dashboards publiés** :
+- Degré 2 · Groupe 8 : https://vastiben.github.io/D9-Chatel/
+- Degré 1 · Groupe 4 : https://vastiben.github.io/D9-Chatel/degre-1.html
 
 ## Architecture
 
@@ -12,16 +14,16 @@ flowchart TD
     A["Bastien prend une capture d'écran\ndu widget / match center AFF-FFV"] --> B["Envoyée dans une session\nClaude Code ouverte sur ce repo"]
     B --> C{{"Skill mettre-a-jour-classement\nse déclenche automatiquement"}}
     C --> D["Extraction des rencontres +\ndédoublonnage par numéro de match"]
-    D --> E["Fusion dans\ndata/matches.json"]
+    D --> E["Fusion dans\ndata/degre-N.json"]
     E --> F["git commit + push sur main"]
     F --> G["GitHub Pages sert index.html"]
-    G --> H["index.html charge\ndata/matches.json par fetch"]
+    G --> H["la page du groupe charge\nson data/degre-N.json par fetch"]
     H --> I["Classement calculé + calendrier\naffichés, à jour, publics"]
     I -. à chaque visite, sans republication .-> G
 ```
 
-Une seule donnée source (`data/matches.json`), une seule page qui la lit
-(`index.html`), une seule skill qui la met à jour. Rien d'autre à
+Une donnée source par groupe (`data/degre-N.json`), une page par groupe qui la
+lit, un code commun (`assets/`), une seule skill qui les met à jour. Rien d'autre à
 synchroniser.
 
 ## Skills et agents créés pour ce projet
@@ -55,24 +57,26 @@ Détail complet de chaque décision dans `docs/adr/`.
 
 ## Structure
 
-- `index.html` — la page, hébergée par GitHub Pages (voir ADR-0004). Charge
-  `data/matches.json` par un simple `fetch` relatif à chaque visite — pas
-  de copie des données à maintenir dans la page.
-- `data/matches.json` — la seule source de vérité des données.
+- `index.html` (Degré 2) et `degre-1.html` (Degré 1) — pages minces,
+  hébergées par GitHub Pages (ADR-0004). Chacune charge son fichier de
+  données par `fetch` à chaque visite (attribut `data-source`).
+- `assets/app.js`, `assets/style.css` — logique (classement, journées,
+  rendu) et style partagés (ADR-0005).
+- `data/degre-2.json`, `data/degre-1.json` — sources de vérité.
 - `CONTEXT.md` — vocabulaire du domaine et portée du projet.
 - `docs/adr/` — décisions structurantes : ADR-0001 (calcul du classement,
   saisie manuelle), ADR-0002 et ADR-0003 (mise à jour depuis un Artifact
-  Claude — tentée puis abandonnée), ADR-0004 (hébergement GitHub Pages).
+  Claude — tentée puis abandonnée), ADR-0004 (hébergement GitHub Pages), ADR-0005 (plusieurs groupes).
 - `.claude/skills/mettre-a-jour-classement/` — la skill qui traite les
   captures d'écran envoyées par Bastien et met à jour les données.
 
 ## Mettre à jour le dashboard
 
 Envoyer à une session Claude Code ouverte sur ce repo une ou plusieurs
-captures d'écran du widget ou du match center AFF-FFV pour le Groupe 8 —
+captures d'écran du widget ou du match center AFF-FFV pour l'un des groupes —
 en vrac, chevauchements entre captures inclus. La skill
 `mettre-a-jour-classement` se déclenche automatiquement, met à jour
-`data/matches.json` et pousse sur `main` — la page se met à jour toute
+le fichier de données du groupe et pousse sur `main` — la page se met à jour toute
 seule à la prochaine visite, aucune republication à faire.
 
 ## Pourquoi c'est manuel

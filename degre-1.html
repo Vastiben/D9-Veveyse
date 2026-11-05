@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Groupe 4 Juniors D-9 · Degré 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;900&family=Public+Sans:wght@400;500;600&display=swap">
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-source="data/degre-1.json">
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">AFF-FFV Fribourg · Ronde d'automne 2026</div>
+    <nav class="groups" aria-label="Groupes suivis">
+      <a href="./">Degré 2 · Groupe 8 · Châtel</a>
+      <a href="degre-1.html" aria-current="page">Degré 1 · Groupe 4 · Bossonnens</a>
+    </nav>
+    <h1 id="title"></h1>
+    <div class="competition">
+      <span class="tag" id="tagClass"></span>
+      <span class="tag" id="tagTeams"></span>
+      <span class="tag" id="tagRounds"></span>
+      <span class="tag" id="tagDates"></span>
+    </div>
+    <p class="snapshot" id="snapshot"></p>
+    <a class="source-link" id="sourceLink" href="#" target="_blank" rel="noopener noreferrer">Voir les résultats sur le match center AFF-FFV ↗</a>
+  </header>
+
+  <div class="stats" id="statStrip"></div>
+
+  <section>
+    <h2>Classement calculé</h2>
+    <p class="sub">
+      Reconstitué à partir des résultats, l'AFF-FFV ne publiant pas de classement en
+      Juniors D-9. Tri&nbsp;: points, puis confrontation directe entre équipes à
+      égalité, puis différence de buts, puis buts marqués.
+    </p>
+    <div class="tablescroll">
+      <table>
+        <thead>
+          <tr>
+            <th class="left" colspan="2">Équipe</th>
+            <th>Pts</th>
+            <th>J</th><th>V</th><th>N</th><th>D</th>
+            <th>Buts</th><th>Diff</th>
+            <th class="diffcell"></th>
+          </tr>
+        </thead>
+        <tbody id="standings"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2 id="matchesTitle">Les matchs</h2>
+    <div id="matchList"></div>
+  </section>
+
+  <section>
+    <h2>Notes méthodologiques</h2>
+    <div class="notes" id="notes"></div>
+  </section>
+
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
